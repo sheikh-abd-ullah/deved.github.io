@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: darkred;
+    color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#h1{
+	align-items: center;
+	margin-left: 30px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+	margin-right: 30px;
+}
+
+section{
+	background-image: url(background.jpg);
+	height: 40rem;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #E8E8E8;
+}
+
+#heading2{
+	font-size: 3rem;
+	text-shadow: 3px 3px 3px black;
+}
+
+#heading3{
+	font-size: 2rem;
+	text-shadow: 3px 3px 3px black;
+	display: flex;
+	justify-content: center;
+}
+
+button{
+	background-color: darkred;
+	font-size: 20px;
+	margin-top: 20px;
+	padding: 5px 20px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.btn-center{
+	display: flex;
+	justify-content: center;
+}
+
+button:hover{
+	padding: 5px 29px;
+}
+
+#contact-h1{
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	margin: 30px 0px;
+}
+
+label, input, textarea{
+	display: flex;
+	justify-content: center;
+}
+
+input, textarea{
+	margin: auto;
+}
+
+label{
+	font-size: 25px;
+	margin: 10px 0px;
+}
+
+input, textarea{
+	font-size: 25px;
+	border-color: black;
+	width: 340px;
+}
+
+textarea{
+	height: 150px;
+}
+
